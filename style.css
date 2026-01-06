@@ -67,7 +67,7 @@
         #btn-back-to-top {
             position: fixed;
             bottom: 20px;
-            right: 20px;
+            right: 100px;
             display: none; /* Oculto por defecto */
             background-color: var(--secondary-color);
             color: white;
@@ -84,6 +84,28 @@
             transform: scale(1.1);
             background-color: var(--secondary-color);
         }
+
+        #btn-whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            z-index: 1000;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+        }
+
+        #btn-whatsapp {
+            transform: scale(1.1);
+            background-color: var(--secondary-color);
+        }
+
 
         /* Mapa */
         .map-container iframe {
