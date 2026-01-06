@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fisioterapia Avanzada y Entrenamiento Personal en Sevilla | Clínica Varela Fisio - Recuperación y Salud</title>
     <meta name="description" content="Servicios avanzados de fisioterapia y entrenamiento personal en Sevilla. Clínica profesional en Sevilla. ¡Pide tu cita hoy!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://varelafisio.es">
+    <link rel="canonical" href="https://varelafisio.com">
     <meta property="og:locale" content="es_ES">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Fisioterapia Avanzada y Entrenamiento Personal en Sevilla | Varela Fisio">
     <meta property="og:description" content="Fisioterapia Avanzada y Entrenamiento Personal en Sevilla | Varela Fisio | Agenda tu sesión.">
-    <meta property="og:url" content="https://varelafisio.es">
+    <meta property="og:url" content="https://varelafisio.com">
     <meta property="og:site_name" content="Varela Fisio">
-    <meta property="og:image" content="https://varelafisio.es/img/preview.png">
-	<link rel="icon" type="image/png" href="favicon.png">
-	<link rel="apple-touch-icon" href="favicon.png">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta property="og:image" content="https://varelafisio.com/img/preview.png">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "PhysiotherapyClinic",
+          "name": "Varela Fisio - Fisioterapia Avanzada a Domicilio",
+          "description": "Servicios de fisioterapia avanzada y recuperación funcional directamente en tu domicilio.",
+          "image": "https://varelafisio.com/img/preview.png",
+          "url": "https://varelafisio.com",
+          "telephone": "676953059",
+          "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "ES"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.349859,
+            "longitude": -5.918255
+          },
+          "areaServed": {
+            "@type": "City",
+            "name": "Montequinto"
+          },
+          "sameAs": [
+            "https://www.instagram.com/varelafisio"
+          ]
+        }
+    </script>
 </head>
 <body>
 
@@ -246,14 +273,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
-        // B
-        let whatsAppButton = document.getElementById("btn-whatsapp");
         let mybutton = document.getElementById("btn-back-to-top");
-
         window.onscroll = function () {
             scrollFunction();
         };
-
         function scrollFunction() {
             if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
                 mybutton.style.display = "block";
@@ -261,12 +284,12 @@
                 mybutton.style.display = "none";
             }
         }
-
         mybutton.addEventListener("click", backToTop);
         function backToTop() {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
-
+        
+        let whatsAppButton = document.getElementById("btn-whatsapp");
         whatsAppButton.addEventListener("click", openWhatsapp);
         function openWhatsapp() {
             window.open(
